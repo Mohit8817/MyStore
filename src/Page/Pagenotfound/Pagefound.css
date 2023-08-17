@@ -1,0 +1,40 @@
+/*======================
+    404 page
+=======================*/
+
+
+.bg404 {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 600px;
+    background-position: center;
+}
+
+
+.bg404 h1 {
+    font-size: 90px;
+    font-weight: bold;
+
+}
+
+.h3 {
+    font-size: 80px;
+}
+
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.contant_box_404 {
+    margin-top: 22%;
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .contant_box_404 {
+        margin-top: 85%;
+    }
+}

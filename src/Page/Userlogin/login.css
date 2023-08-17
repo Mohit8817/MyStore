@@ -1,0 +1,139 @@
+html {
+    height: 100%;
+}
+
+.loginimg{
+    margin: 20% 0 0 5%;
+}
+
+.login-box {
+    position: relative;
+    top: 50%;
+    left: 35%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    /* background: linear-gradient(#1a495e, rgb(164, 205, 217)); */
+    background-color: transparent;
+    box-sizing: border-box;
+    /* box-shadow: 0 15px 25px rgba(0, 0, 0, .6); */
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: orange;
+    font-weight: bold;
+    
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: orange;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: orange;
+    font-size: 12px;
+}
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: 2px solid rgb(0, 0, 0) ;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
+
+.login-box a:hover {
+    border: 2px solid rgb(255, 255, 255) ;
+    background: rgb(232, 173, 62);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ba9537,
+        0 0 25px #c4a14a,
+        0 0 50px #a28742,
+        0 0 100px #deb54e;
+}
+
+.login-box a span {
+    position: absolute;
+    display: block;
+}
+
+
+.faicon{
+    border: 2px solid white;
+    color: red;
+}
+
+
+
+/* media Query log in form  for mobile device */ 
+
+@media only screen and (max-width: 600px) {
+
+    .loginimg{
+        padding: 0;
+        margin: 18% 0 0 10%;
+    }
+
+
+
+.login-box .user-box input {
+    width: 80%;
+    padding: 10px 0;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+}
+.login-box {
+    position: relative;
+    top: 35%;
+    left: 40%;
+    width: 400px;
+    padding: 20%;
+    padding-right: 0;
+    transform: translate(-50%, -50%);  
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+}
