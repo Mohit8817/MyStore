@@ -258,14 +258,15 @@ export const blog = [
         id: 1,
         photo: require("./Images/latest-1.jpg"),
         icontext: "May 4, 2022 ",
-        headings: "The Best Street Style From London Fashion Week",
+        headings: "Vogue's Ultimate Guide To Autumn/Winter 2019 Shoes",
         para: "Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat",
     },
     {
+
         id: 1,
         photo: require("./Images/latest-2.jpg"),
         icontext: "Feb 8, 2023",
-        headings: "Vogue's Ultimate Guide To Autumn/Winter 2019 Shoes",
+        headings:  "The Best Street Style From London Fashion Week",       
         para: "Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat",
     },
     {
