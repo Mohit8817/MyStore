@@ -28,7 +28,7 @@ function App() {
     Aos.init();
 
     // scroll to top on page load
-    // scroll button ........
+    // scroll button .......
     window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }, [])
 

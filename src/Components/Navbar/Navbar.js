@@ -4,13 +4,7 @@ import { links } from '../../data'
 import { Link, NavLink } from 'react-router-dom'
 import { useEffect } from 'react'
 
-
-
-
-
 const Navbar = () => {
-
-
   
     useEffect(() => {
         const handleScroll = () => {
