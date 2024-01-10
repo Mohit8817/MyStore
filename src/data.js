@@ -29,10 +29,10 @@ export const links = [
         name: "Home",
         path: '/'
     },
-     {
-        name: "About",
-        path: '/about'
-    },
+    //  {
+    //     name: "About",
+    //     path: '/about'
+    // },
     {
         name: "Mens",
         path: '/mens'
@@ -54,6 +54,7 @@ export const links = [
         name: "Contact",
         path: '/contact'
     },
+  
 
 ]
 
@@ -593,6 +594,12 @@ export const cartdata =[
         id:16,
         img:require("./Images/allpro-16.jpg"),
         title:"T-Shirt /Lower",
+        price:"51.00"
+    },
+    {
+        id:17,
+        img:require("./Images/allpro-14.jpg"),
+        title:"T-Shirt",
         price:"51.00"
     },
  

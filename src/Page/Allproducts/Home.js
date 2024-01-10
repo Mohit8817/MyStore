@@ -18,7 +18,7 @@ const Home = () => {
                                     return (
                                         <div className="col-md-3 ">
                                         
-                                            <Itemcard                                                
+                                            <Itemcard                                     
                                                 id={item.id}
                                                 img={item.img}
                                                 title={item.title}

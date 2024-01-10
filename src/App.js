@@ -20,7 +20,7 @@ import Aos from 'aos';
 import Showcartcomponent from './Page/Allproducts/Showcartcomponent';
 import Userlogin from './Page/Userlogin/Userlogin';
 import Contact from './Page/Contact/Contact';
-import About from './Page/About/About';
+// import About from './Page/About/About';
 
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
               <Route path='/' element={<Home />}></Route>
               <Route path='/womens' element={<Womens />}></Route>
               <Route path='/mens' element={<Mens />}></Route>
-              <Route path='/about' element={<About />}></Route>
+              {/* <Route path='/about' element={<About />}></Route> */}
               <Route path='/' element={<Kids />}></Route>
               <Route path='/allproducts' element={<Products />}></Route>
               <Route path='/cartcomponent' element={<Showcartcomponent />}></Route>
