@@ -9,7 +9,7 @@ const Deal = () => {
     const [mins, setMinutes] = useState(0);
     const [sec, setSeconds] = useState(0);
 
-    const deadline = "april, 24, 2024"
+    const deadline = "April, 24, 2025"
 
     const gettime = () => {
         const time = Date.parse(deadline) - Date.now()

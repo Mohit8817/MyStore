@@ -53,11 +53,15 @@ const Navbar = () => {
                                         }
                                     </ul>
                                 </div>
-                                {/* user logo  */}
+
+
+                                {/* user logo  for log in page */}
+
                                 <Link to="/userlogin">
                                     <i className='bi bi-person-circle  text-dark fs-2 me-4'></i>
                                 </Link>
-                                {/* cart logo  */}
+
+                                {/* cart logo for cart page  */}
                                 <div className=''>
 
                                     <Link to="/cartcomponent">
