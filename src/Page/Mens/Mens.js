@@ -9,7 +9,6 @@ const Mens = () => {
     setRange(newValue);
   }
 
-
   // more page 
   const [noOfement, setnoOfElement] = useState(6);
 
@@ -62,14 +61,11 @@ const Mens = () => {
               {/*price filter box here  */}
 
             
-                <p className='mx-5 text-dark'><b>Filter by price</b></p>
-               
+                <p className='mx-5 text-dark'><b>Filter by price</b></p>               
                   <Slider className='mx-5 w-75 text-warning' value={range} onChange={handleChanges} valueLabelDisplay="auto" />
                   <p className='mx-5'> selected Price is $ {range[0]} - {range[1]}</p>
                
              
-
-
               {/* checkbox here  */}
               <div className="mx-5">
                 <p className='text-dark'><b>Filter by Brand</b></p>
@@ -166,6 +162,8 @@ const Mens = () => {
           <div className="col-md-9">
             <div className="row">
 
+          
+                 {/* Mens data in Data.js Component line no. 138 to 203  */}
               {
                 slice.map(({ index, img, name, price, strike }) => {
                   return (
@@ -193,9 +191,6 @@ const Mens = () => {
               <button className=' btn morebtn' onClick={() => loadMore()}>more Products</button>
            
             </div>
-
-
-
         </div>
       </div>
     </div>

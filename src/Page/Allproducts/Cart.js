@@ -34,7 +34,6 @@ const Cart = () => {
                     </div>
                     <h4 className='mx-5 mt-4'> Total Items:({totalItems})</h4>
 
-
                     { /* show items div  */}
                     <div>
                         <table className='table table-hover   '>

@@ -9,7 +9,8 @@ const Deal = () => {
     const [mins, setMinutes] = useState(0);
     const [sec, setSeconds] = useState(0);
 
-    const deadline = "April, 24, 2025"
+    // counter date change hrer  
+    const deadline = "may, 22, 2025"
 
     const gettime = () => {
         const time = Date.parse(deadline) - Date.now()
@@ -74,7 +75,7 @@ const Deal = () => {
                                             <div className="col-lg-7"></div>
                                         </div>
                                         <div>
-                                        <Link to="/s" className="btn btn-warning  mt-3 ">Shop Now</Link>
+                                        <Link to="/Not" className="btn btn-warning  mt-3 ">Shop Now</Link>
                                            
                                         </div>
                                     </div>

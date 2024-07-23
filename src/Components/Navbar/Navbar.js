@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom'
 import { useEffect } from 'react'
 
 const Navbar = () => {
-  
+
     useEffect(() => {
         const handleScroll = () => {
             const navbar = document.getElementById('navbarManage');
@@ -42,6 +42,7 @@ const Navbar = () => {
 
                                 <div className="collapse navbar-collapse" id="navbarNav">
                                     <ul className='navbar-nav left_nav'>
+                                        {/* Nav link data and path in Data.js component line NO.26-60   */}
                                         {
                                             links.map(({ name, path }, index) => {
                                                 return (
@@ -56,14 +57,11 @@ const Navbar = () => {
 
 
                                 {/* user logo  for log in page */}
-
                                 <Link to="/userlogin">
                                     <i className='bi bi-person-circle  text-dark fs-2 me-4'></i>
                                 </Link>
-
                                 {/* cart logo for cart page  */}
                                 <div className=''>
-
                                     <Link to="/cartcomponent">
                                         <i className='bi bi-cart3 fs-1 cart' ></i>
                                     </Link>

@@ -51,6 +51,8 @@ function Womenscomp() {
                         <div className="container">
                             <div className="row">
                                 <div className="col">
+
+                                {/* women data in Data.js Component Line no - 62 to 129   */}
                                     <Carousel responsive={responsive}>
                                         {
                                             Womendata.map(({ img, title, heading, price, index }) => {
