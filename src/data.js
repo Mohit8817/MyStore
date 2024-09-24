@@ -39,7 +39,9 @@ export const links = [
     },
     {
         name: "Womens",
-        path: '/womens'
+        path: '/womens',
+        
+       
     },
     {
         name: "Kids",
@@ -54,9 +56,42 @@ export const links = [
         name: "Contact",
         path: '/contact'
     },
-  
+    {
+        name: "Services",
+        path: '/services',
+        submenu: [
+            {
+                name: "Web Design",
+                path: '/services/web-design'
+            },
+            {
+                name: "Web Development",
+                path: '/services/web-development'
+            },
+            {
+                name: "SEO",
+                path: '/services/seo'
+            }
+        ]
+    }
 
 ]
+// for dropdown 
+// export const mensDropdown = [
+//     {
+//         name: "Shirts",
+//         path: '/mens/shirts'
+//     },
+//     {
+//         name: "Trousers",
+//         path: '/mens/trousers'
+//     },
+//     {
+//         name: "Accessories",
+//         path: '/mens/accessories'
+//     }
+// ];
+
 
 
 // womens data here
@@ -363,128 +398,180 @@ export const women = [
 // ******************************************
 
 // products data 
-// womens cloths data 
+//  cloths data 
 export const menspro = [
+
     {
         id: 1,
         img: require("./Images/mp-1.jpg"),
         name: "Yellow Tshirt",
         price: "85.00",
-        strike: "90.00"
+        strike: "90.00",
+        brand: "GUCCI"
     },
     {
         id: 2,
         img: require("./Images/mp-2.jpg"),
         name: "Green T-shirt",
         price: "75.00",
-        strike: "88.00"
+        strike: "88.00",
+        brand: "GUCCI"
     },
     {
         id: 3,
         img: require("./Images/mp-3.jpg"),
         name: "Black Jacket",
         price: "55.00",
-        strike: "65.00"
+        strike: "65.00",
+       brand: "GUCCI"
     },
+    // Add
     {
         id: 4,
-        img: require("./Images/mp-4.jpg"),
-        name: "Tshirt/pant",
-        price: "80.00",
-        strike: "99.00"
+        img: require("./Images/mp-1.jpg"),
+        name: "Yellow Tshirt",
+        price: "85.00",
+        strike: "90.00",
+         brand: "GUCCI"
     },
     {
         id: 5,
-        img: require("./Images/mp-5.jpg"),
-        name: "Printed Tshirt",
+        img: require("./Images/mp-2.jpg"),
+        name: "Green T-shirt",
         price: "75.00",
-        strike: "80.00"
+        strike: "88.00",
+        brand: "ADIDAS"
     },
     {
         id: 6,
-        img: require("./Images/mp-6.jpg"),
-        name: "Casual Pant",
-        price: "65.00",
-        strike: "80.00"
+        img: require("./Images/mp-3.jpg"),
+        name: "Black Jacket",
+        price: "55.00",
+        strike: "65.00",
+        brand: "ADIDAS"
     },
     {
         id: 7,
-        img: require("./Images/mp-7.jpg"),
-        name: "Grey Tshirt",
-        price: "55.00",
-        strike: "60.00"
-
+        img: require("./Images/mp-4.jpg"),
+        name: "Tshirt/pant",
+        price: "80.00",
+        strike: "99.00",
+        brand: "ADIDAS"
     },
     {
         id: 8,
-        img: require("./Images/mp-8.jpg"),
-        name: "Balck Combo",
-        price: "99.00",
-        strike: "20.00"
+        img: require("./Images/mp-5.jpg"),
+        name: "Printed Tshirt",
+        price: "75.00",
+        strike: "80.00",
+        brand: "ADIDAS"
     },
     {
         id: 9,
-        img: require("./Images/mp-9.jpg"),
-        name: "Blue Jeans",
-        price: "55.00",
-        strike: "20.00"
+        img: require("./Images/mp-6.jpg"),
+        name: "Casual Pant",
+        price: "65.00",
+        strike: "80.00",
+       brand: "ADIDAS"
     },
     {
         id: 10,
-        img: require("./Images/mp-10.jpg"),
-        name: "Casual Dress",
-        price: "85.00",
-        strike: "20.00"
+        img: require("./Images/mp-7.jpg"),
+        name: "Grey Tshirt",
+        price: "55.00",
+        strike: "60.00",
+      brand: "ADIDAS"
+
     },
     {
         id: 11,
-        img: require("./Images/mp-11.jpg"),
-        name: "Jacket",
-        price: "55.00",
-        strike: "20.00"
+        img: require("./Images/mp-8.jpg"),
+        name: "Balck Combo",
+        price: "99.00",
+        strike: "20.00",
+        brand: "NIKE"
     },
     {
         id: 12,
-        img: require("./Images/mp-12.jpg"),
-        name: "Plane T-shirt",
+        img: require("./Images/mp-9.jpg"),
+        name: "Blue Jeans",
         price: "55.00",
-        strike: "20.00"
+        strike: "20.00",
+         brand: "NIKE"
     },
     {
         id: 13,
-        img: require("./Images/mp-13.jpg"),
-        name: "Dark Grey Tshirt",
-        price: "55.00",
-        strike: "20.00"
+        img: require("./Images/mp-10.jpg"),
+        name: "Casual Dress",
+        price: "85.00",
+        strike: "20.00",
+          brand: "NIKE"
     },
     {
         id: 14,
-        img: require("./Images/mp-14.jpg"),
-        name: "Grey Jeans",
+        img: require("./Images/mp-11.jpg"),
+        name: "Jacket",
         price: "55.00",
-        strike: "20.00"
+        strike: "20.00",
+        brand: "NIKE"
     },
     {
         id: 15,
-        img: require("./Images/mp-15.jpg"),
-        name: "Shirt Combo",
+        img: require("./Images/mp-12.jpg"),
+        name: "Plane T-shirt",
         price: "55.00",
-        strike: "20.00"
+        strike: "20.00",
+         brand: "LOUIS VUITTON"
     },
     {
         id: 16,
+        img: require("./Images/mp-13.jpg"),
+        name: "Dark Grey Tshirt",
+        price: "55.00",
+        strike: "20.00",
+         brand: "LOUIS VUITTON"
+    },
+    {
+        id: 17,
+        img: require("./Images/mp-14.jpg"),
+        name: "Grey Jeans",
+        price: "55.00",
+        strike: "20.00",
+         brand: "LOUIS VUITTON"
+    },
+    {
+        id: 18,
+        img: require("./Images/mp-15.jpg"),
+        name: "Shirt Combo",
+        price: "55.00",
+        strike: "20.00",
+        brand: "LOUIS VUITTON"
+    },
+    {
+        id: 19,
         img: require("./Images/mp-16.jpg"),
         name: "Jacket combo",
         price: "55.00",
-        strike: "20.00"
+        strike: "20.00",
+         brand: "LOUIS VUITTON"
     },
 
     {
-        id: 17,
+        id: 20,
         img: require("./Images/mp-17.jpg"),
         name: "Printed T-shirt",
         price: "55.00",
-        strike: "20.00"
+        strike: "20.00",
+        brand: "LOUIS VUITTON"
+    },
+
+    {
+        id: 21,
+        img: require("./Images/mp-17.jpg"),
+        name: "Printed T-shirt",
+        price: "55.00",
+        strike: "20.00",
+        brand: "ARMANI"
     },
 
 ]

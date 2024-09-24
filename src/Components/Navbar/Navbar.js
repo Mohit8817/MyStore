@@ -42,16 +42,30 @@ const Navbar = () => {
 
                                 <div className="collapse navbar-collapse" id="navbarNav">
                                     <ul className='navbar-nav left_nav'>
-                                        {/* Nav link data and path in Data.js component line NO.26-60   */}
-                                        {
-                                            links.map(({ name, path }, index) => {
+                                        {links.map(({ name, path, submenu }, index) => {
+                                            if (submenu) {
+                                                return (
+                                                    <li className='nav-item dropdown' key={index}>
+                                                        <a className="nav-link dropdown-toggle fs-6 m-2 text-dark" href={path} id={`navbarDropdown${index}`} role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            {name}
+                                                        </a>
+                                                        <ul className="dropdown-menu" aria-labelledby={`navbarDropdown${index}`}>
+                                                            {submenu.map((subItem, subIndex) => (
+                                                                <li key={subIndex}>
+                                                                    <NavLink className="dropdown-item" to={subItem.path}>{subItem.name}</NavLink>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    </li>
+                                                );
+                                            } else {
                                                 return (
                                                     <li className='nav-item' key={index}>
                                                         <NavLink className="nav-link fs-6 m-2 text-dark" to={path}>{name}</NavLink>
                                                     </li>
-                                                )
-                                            })
-                                        }
+                                                );
+                                            }
+                                        })}
                                     </ul>
                                 </div>
 
