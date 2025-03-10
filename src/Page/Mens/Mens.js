@@ -23,6 +23,7 @@ const Mens = () => {
     setnoOfElement(noOfement + noOfement);
     console.log(setnoOfElement)
   }
+
   const slice = menspro.slice(0, noOfement);
 
 
@@ -47,8 +48,6 @@ const Mens = () => {
           {/* right side col  */}
           <div className="col-md-3 mt-5 p-3">
             <div className="border mt-5 bg-light">
-
-
             <div>
             {/* Price filter box */}
             <p className="mx-5 text-dark"><b>Filter by price</b></p>
@@ -211,7 +210,7 @@ const Mens = () => {
           <div className="col-md-9">
             <div className="row">
               {filteredProducts.map(({ id, img, name, price, strike }) => (
-                <div className='col-md-4' key={id}>
+                <div className='col-md-3' key={id}>
                   <div className="w-75 text-center m-auto mt-5">
                     <img src={img} alt={name} className='w-100' />
                     <p className='m-2 fs-5 text-dark'>{name}</p>

@@ -56,24 +56,24 @@ export const links = [
         name: "Contact",
         path: '/contact'
     },
-    {
-        name: "Services",
-        path: '/services',
-        submenu: [
-            {
-                name: "Web Design",
-                path: '/services/web-design'
-            },
-            {
-                name: "Web Development",
-                path: '/services/web-development'
-            },
-            {
-                name: "SEO",
-                path: '/services/seo'
-            }
-        ]
-    }
+    // {
+    //     name: "Services",
+    //     path: '/services',
+    //     submenu: [
+    //         {
+    //             name: "Web Design",
+    //             path: '/services/web-design'
+    //         },
+    //         {
+    //             name: "Web Development",
+    //             path: '/services/web-development'
+    //         },
+    //         {
+    //             name: "SEO",
+    //             path: '/services/seo'
+    //         }
+    //     ]
+    // }
 
 ]
 // for dropdown 
